@@ -1,0 +1,10 @@
+<!-- 购物车没有商品时的显示 -->
+<view class="Nocart-section">
+  <view class="Nocart-item">
+    <image class="cart-img" src="../../images/qrCode/NoqrCode.png"></image>
+    <view class="text-wrp">
+      <view style="font-size:28rpx;padding-bottom:20rpx;">购物车快饿瘪了╥﹏╥</view>
+      <view style="font-size:24rpx;color:#da251d;border:2rpx solid #da251d;border-radius: 6rpx;width: 100rpx;padding:6rpx;margin:auto;">去逛逛</view>
+    </view>
+  </view>
+</view>

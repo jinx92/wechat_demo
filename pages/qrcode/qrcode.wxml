@@ -1,0 +1,11 @@
+<!-- 没购物时的显示 -->
+<view class="NoqrCode-section">
+  <view class="NoqrCode-item">
+    <image class="qrCode-img" src="../../images/qrCode/NoqrCode.png"></image>
+    <view class="text-wrp">
+      <view style="font-size:28rpx;">您尚未购物</view>
+      <view style="font-size:24rpx;color:#666;">请先购物后再来</view>
+    </view>
+  </view>
+</view>
+<!-- 购物过后的显示 -->

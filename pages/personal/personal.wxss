@@ -1,0 +1,87 @@
+.pers-header {
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.pers-data {
+  display: flex;
+  flex-direction: row;
+  padding: 16rpx 20rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.pers-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  overflow: hidden;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+}
+.pers-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20rpx;
+}
+.info:first-child{
+  color: #333;
+  font-size: 34rpx;
+}
+.info {
+  width: 100%;
+  color: #999;
+}
+.pers-nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rpx;
+}
+.nav-item {
+  text-align: center;
+  flex: 1;
+}
+.nav-item view:nth-child(1){
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #da251d;
+}
+.nav-item view:nth-child(2){
+  color: #666;
+}
+.nav-item view text {
+  font-size: 20rpx;
+  color: #00a2ff;
+}
+.member{
+  border-left: 2rpx solid #eee;
+  border-right: 2rpx solid #eee;
+}
+.pers-list {
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20rpx 10rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.Icon {
+  width:40rpx;
+  height:40rpx;
+}
+.list-text{
+  margin-left: 20rpx
+}
+.next {
+  width:16rpx;
+  height:26rpx;
+  position:absolute;
+  right:20rpx;
+
+} 

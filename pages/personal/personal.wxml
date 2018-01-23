@@ -1,0 +1,37 @@
+<!-- 个人中心头部，头像电话等.... -->
+<view class="pers-header">
+  <view class="pers-data">
+    <view class="pers-avatar">
+      <image class="avatar-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516708622182&di=2adff9c2cebb3ab56290d37d9f6addc2&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201604%2F19%2F20160419082436_GYvnm.jpeg"></image>
+    </view>
+    <view class="pers-info">
+      <view class="info info-name">金克丝</view>
+      <view class="info info-phone">13800138000</view>
+      <view class="info info-ref">推荐人 : 愿望城 10086</view>
+    </view>
+  </view>
+  <view class="pers-nav">
+    <view class="nav-item promotion">
+      <view>￥90.00</view>
+      <view>推广费 <text>提现</text></view>
+    </view>
+    <view class="nav-item member">
+      <view>1200</view>
+      <view>我的会员</view>
+    </view>
+    <view class="nav-item integral">
+      <view>500</view>
+      <view>我的积分</view>
+    </view>
+  </view>
+</view>
+<!-- 个人中心列表 -->
+<view class="pers-list">
+  <block wx:for="{{listData}}">
+    <view class="list-item">
+      <image class="Icon" src="{{item.Icon}}"></image>
+      <text class="list-text">{{item.text}}</text>
+      <image class="next" src="{{item.nextIcon}}"></image>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,23 @@
+/* 没有购物时的显示 */
+.NoqrCode-section {
+  width: 750rpx;
+  height: 1110rpx;
+}
+.NoqrCode-item {
+  width: 750rpx;
+  height: 1110rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.qrCode-img {
+  width: 300rpx;
+  height: 330rpx;
+  margin-bottom: 120rpx;
+}
+.text-wrp {
+  text-align: center;
+  position: absolute;
+  top: 675rpx;
+}

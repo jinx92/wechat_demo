@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/qrcode/qrcode",
+    "pages/cart/cart",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#da251d",
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#da251d",
+    "list": [
+      {
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/index_sell.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/tabBar/QRCode.png",
+        "selectedIconPath": "images/tabBar/QRCode_sell.png",
+        "pagePath": "pages/qrcode/qrcode",
+        "text": "二维码"
+      },
+      {
+        "iconPath": "images/tabBar/cart.png",
+        "selectedIconPath": "images/tabBar/cart_sell.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "images/tabBar/personal.png",
+        "selectedIconPath": "images/tabBar/personal_sell.png",
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
